@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+-*- coding: utf-8 -*-
 from typing import Dict
 
 from Types import DataType
@@ -44,3 +44,4 @@ class NewCalcRating:
             if q1 < self.rating[key] < q3:
                 q2_rating[key] = self.rating[key]
         return q2_rating
+        

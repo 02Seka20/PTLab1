@@ -20,3 +20,4 @@ class YamlDataReader(DataReader):
                     n = value.get(d)
                     self.students[key1].append((d, n))
         return self.students
+        
