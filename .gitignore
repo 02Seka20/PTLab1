@@ -1,6 +1,6 @@
-*.txt
+
 # игнорирует все файлы с расширением txt
-/rating/*.txt
+#/rating/*.txt
 
 # не игнорирует файл README.md
 !README.md
